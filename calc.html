@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Calc</title>
+
+    <link rel="stylesheet" href="./assets/stylesheets/calc.css" type="text/css" />
+    
+</head>
+
+<body>
+    <div class="my-calc">
+        <div class="container">
+            <form name="js">
+                <div class="row">
+                    <input id="result" class="calc-result col-12" type="text" name="result" value="0" style="text-align: right;" />
+                </div>
+            </form>
+
+            <div class="row">
+                <button class="col-3 btn-default" onClick="onButton('AC')">AC</button>
+                <button class="col-3 btn-default" onClick="onButton('+/-')">+/-</button>
+                <button class="col-3 btn-default" onClick="onButton('%')">%</button>
+                <button class="col-3 btn-operator" onClick="onButton('÷')">÷</button>
+            </div>
+            <div class="row">
+                <button class="col-3 btn-default" onClick="onButton('7')">7</button>
+                <button class="col-3 btn-default" onClick="onButton('8')">8</button>
+                <button class="col-3 btn-default" onClick="onButton('9')">9</button>
+                <button class="col-3 btn-operator" onClick="onButton('×')">×</button>
+            </div>
+            <div class="row">
+                <button class="col-3 btn-default" onClick="onButton('4')">4</button>
+                <button class="col-3 btn-default" onClick="onButton('5')">5</button>
+                <button class="col-3 btn-default" onClick="onButton('6')">6</button>
+                <button class="col-3 btn-operator" onClick="onButton('-')">−</button>
+            </div>
+            <div class="row">
+                <button class="col-3 btn-default" onClick="onButton('1')">1</button>
+                <button class="col-3 btn-default" onClick="onButton('2')">2</button>
+                <button class="col-3 btn-default" onClick="onButton('3')">3</button>
+                <button class="col-3 btn-operator" onClick="onButton('+')">＋</button>
+            </div>
+            <div class="row">
+                <button class="col-6 btn-default" onClick="onButton('0')">0</button>
+                <button class="col-3 btn-default" onClick="onButton('.')">.</button>
+                <button class="col-3 btn-operator" onClick="onButton('=')">＝</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.js"></script>
+    <script type="text/javascript" src="./assets/javascripts/calc.js"></script>
+    <!--<script src="//gnab.github.io/remark/downloads/remark-latest.min.js"></script>-->
+</body>
+
+</html>
