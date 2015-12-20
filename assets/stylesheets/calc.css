@@ -1,0 +1,41 @@
+.my-calc {
+    width: 400px;
+}
+    .my-calc .container {
+        border: 1px solid black;
+    }
+    .my-calc .row {
+        width: 100%;
+        font-size: 0;
+    }
+        .my-calc .row .col-12 {
+            width: 100%;
+        }
+        .my-calc .row .col-6 {
+            width: 50%;
+        }
+        .my-calc .row .col-3 {
+            width: 25%;
+        }
+    .my-calc input[type="text"] {
+        box-sizing: border-box;
+        padding: 8px;
+        height: 72px;
+        font-size: 32px;
+        font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    }
+    .my-calc button {
+        padding: 8px;
+        height: 72px;
+        font-size: 28px;
+        font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+        border: 1px solid black;
+    }
+        .my-calc .btn-default {
+            background-color: #eeeeee;
+            color: black;
+        }
+        .my-calc .btn-operator {
+            background-color: orange;
+            color: white;
+        }
